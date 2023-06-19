@@ -1,0 +1,13 @@
+#heading-one {
+  font-family: Acme, sans-serif;
+  font-size: 60px;
+  color: rgb(17,68,129);
+  line-height: 60px;
+}
+
+@media (max-width: 576px) {
+  #heading-one {
+    font-size: 8vh;
+  }
+}
+

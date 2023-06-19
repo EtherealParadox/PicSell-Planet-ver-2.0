@@ -1,0 +1,16 @@
+#card-4 {
+  background: rgb(17,68,129);
+  height: 270px;
+  border-radius: 10px;
+}
+
+#heading-three {
+  font-size: 35px;
+}
+
+@media (max-width: 576px) {
+  #heading-three {
+    font-size: 18px;
+  }
+}
+

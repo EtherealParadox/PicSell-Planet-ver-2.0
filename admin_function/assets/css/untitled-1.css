@@ -1,0 +1,15 @@
+@media (min-width: 1400px) {
+  #heading-one {
+    font-family: 'Kaushan Script', serif;
+    display: inline-flex;
+    font-size: 45px;
+    color: rgb(254, 209, 54);
+  }
+}
+
+@media (min-width: 454px) {
+  #heading-one {
+    font-size: 45px;
+  }
+}
+

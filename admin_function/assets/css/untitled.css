@@ -1,0 +1,14 @@
+#admin-logo-login {
+  width: 155px;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  #admin-logo-login {
+    margin-left: 30px;
+  }
+}
+

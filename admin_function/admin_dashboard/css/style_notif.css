@@ -1,0 +1,74 @@
+    .dropdown-notif {
+        margin-top: auto;
+        margin-bottom: auto;
+        position: relative;
+        display: inline-block; 
+        margin-right: 10px;
+        outline: none;
+        border: 0;
+    }
+
+    .dropbtn-notif {
+        margin-top: 4px;
+        color: #fed136;
+        background: none;
+        padding: 7px;
+        font-size: 30px;
+        border: 0;
+        border-radius: 5%;
+        cursor: pointer;
+        width: 50px;
+        font-family: "Font Awesome 6 Free" !important; 
+    }
+
+
+    .dropdown-content-notif {
+        right: 0;
+        display: none;
+        width: 450px;
+        max-height: 300px;
+        overflow-y: auto;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content-notif a {
+        margin: auto;
+        color: black;
+        font-size: 15px;
+        padding: 5px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-weight: 650;
+    }
+
+    .dropdown-content-notif a:hover {
+        background-color: #114481;  
+        color: #fed136;
+        cursor: pointer;
+    }
+
+    .show-notif {display: block;}
+
+    .card-notif{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        border-radius: 2%;
+        color: black !important;
+    }
+
+    .card-notif p{
+        word-wrap: break-word;
+        margin-bottom: 5px;
+    }
+
+    .unread-notif {
+        background-color: rgb(211,211,211) !important;
+        border-bottom: 3px solid #f1f1f1 !important;
+    }

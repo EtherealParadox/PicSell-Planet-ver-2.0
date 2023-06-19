@@ -1,0 +1,52 @@
+.posting {
+    padding-left: 5%;
+}
+
+#postTextArea{
+  width: 90%;
+  height: 100px;
+  font-size:14pt;
+  margin-right: 20px;
+  resize: none;
+}
+
+.imgUploadButton img{
+    width: 30px;
+    height: 30px;
+}
+
+.imgUploadButton input{
+    display: none;
+}
+
+.imageThumb {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    cursor: pointer;
+  }
+  .imageCont {
+    position: relative;
+    display: inline-flex;
+    margin: 10px;
+  }
+  .remove{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    color: rgb(206, 96, 96);
+    text-align: center;
+    cursor: pointer;
+  }

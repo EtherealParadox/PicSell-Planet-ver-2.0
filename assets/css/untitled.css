@@ -1,0 +1,18 @@
+#sign-in {
+  background-color: #fed136;
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  #sign-in {
+    width: 80px;
+    background-color: rgb(17,68,129);
+  }
+}
+
+@media (max-width: 576px) {
+  #heading-two {
+    font-size: 4vh;
+  }
+}
+

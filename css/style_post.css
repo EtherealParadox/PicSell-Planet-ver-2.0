@@ -1,0 +1,16 @@
+.post {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 70%;
+}
+
+.mainContentContainer {
+    display: flex;
+    width: 100%;
+}
+
+.postContent {
+    display: block;
+    padding-left: 3%;
+    width: 100%;
+}

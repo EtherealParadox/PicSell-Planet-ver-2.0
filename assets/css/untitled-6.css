@@ -1,0 +1,13 @@
+#last-timeline-heading {
+  font-family: Poppins, sans-serif;
+  color: rgb(0,0,0);
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  #last-timeline-heading {
+    font-size: 12px;
+  }
+}
+
